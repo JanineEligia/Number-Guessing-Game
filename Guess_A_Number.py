@@ -17,15 +17,13 @@ while True:
     elif difficulty == "Hm Hm":
 
         answer = random.randint(1, 100)
-        max_range = 100
-        print ("Plz Type in a Number between 1 and 100")
+        max_range = 100
         break
 
     elif difficulty == "See You Tomorrow":
 
         answer = random.randint(1, 1000)
         max_range = 1000
-        print ("Plz Type in a Number between 1 and 1000")
         break
 
     else:
